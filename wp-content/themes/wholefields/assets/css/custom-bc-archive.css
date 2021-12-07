@@ -1,0 +1,63 @@
+#main.site-main {
+    padding: 0 10%;
+}
+.bc-product-archive select {
+    border-radius: 25px;
+    outline: none;
+    border: solid 1px var(--green);
+    background-color: rgba(0,0,0,0);
+    margin-top: 16px;    
+}
+.bc-form .bc-product-archive__select-field {
+    color: var(--green);
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding: 8px 29px;
+    appearance: none;
+    background-image: url(https://www.pinclipart.com/picdir/middle/345-3450109_png-file-svg-drop-down-arrow-png-clipart.png);
+    background-size: 20px 13px;
+    background-repeat: no-repeat;
+    background-position: 90%;
+}
+
+.bc-product-archive__search {
+    display: none;
+}
+
+a.bc-product__title-link, .bc-product-price {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: var(--green);
+}
+.bc-product__title-link {
+    font-size: 24px;
+
+}
+.bc-product__meta {
+    padding-bottom: 16px;
+}
+.bc-product-price {
+    font-size: 16px;
+}
+/* .bc-form.bc-product-form button.bc-btn--form-submit {
+    background-color: rgba(0,0,0,0);
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    border-radius: 25px;
+    border: solid 1px var(--green);
+    color: var(--green);
+    appearance: none;
+} */
+
+.bc-quickview-trigger--hover-label {
+    color: var(--green);
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    border: solid 1px var(--green);
+}
+.bc-btn--add_to_cart.bc-ajax-cart-processing {
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif !important;
+}
+.bc-product-archive__refinery {
+    margin: 20px 0 0 0;
+}

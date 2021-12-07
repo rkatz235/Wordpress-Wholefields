@@ -1,0 +1,9 @@
+.faq-entry {
+    margin-bottom: 50px;
+}
+
+.faq-content .faq-question {
+    padding-bottom: 24px;
+    font-size: 24px;
+    font-weight: 600;
+}

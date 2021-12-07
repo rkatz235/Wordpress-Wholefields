@@ -1,0 +1,39 @@
+.bc-product-card--single .bc-product__title, .bc-product-single__meta .bc-product__title {
+    font-size: 48px;
+    font-style: italic;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+.bc-product-single .bc-single-product__description {
+    border-top: none;
+    padding-bottom: 100px;
+}
+
+.bc-single-product__description.nutritional_info .nutritional_text {
+    display: flex;
+}
+.bc-single-product__description.nutritional_info .bc-single-product__section-title {
+    font-size: 24px;
+    font-weight: 600px;
+    border-bottom: solid 1px var(--green);
+    padding-bottom: 18px;
+}
+.bc-single-product__description.nutritional_info .nutritional_text p {
+    width: 60%;
+}
+
+
+.bc-single-product__description.nutritional_info .nutritional_text .nutritional_badges {
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.swiper-slide.bc-product-gallery__thumb-slide {
+    background-color: white;
+}
+@media screen and (max-width: 767px){
+    .bc-product-single .bc-product__gallery {
+        order: 1;
+    }
+}

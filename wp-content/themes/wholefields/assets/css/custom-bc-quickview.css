@@ -1,0 +1,51 @@
+.customize-support.device-android.browser-chrome.a11y-dialog__body-locked {
+    position: relative !important;
+}
+.bc-product-gallery__image-slide img {
+    width: 100%;
+}
+
+.bc-product-quick-view__content-inner {
+    background-color: var(--bg-white);
+}
+.bc-product-quick-view__content-inner .bc-product-single__meta-label {
+    font-family: 'Montserrat';
+    color: var(--green);
+}
+
+.bc-product-quick-view__content-inner .bc-product-card.bc-product-card--single .bc-product__actions .nutritional_badges {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.bc-product-quick-view__content-inner .bc-product-card.bc-product-card--single .bc-product__actions .nutritional_badges img {
+    margin-top: 40px;
+    margin-right: 30px;
+}
+.bc-product-quick-view__content-inner .bc-product-card.bc-product-card--single .bc-product__actions .bc-btn.bc-btn--form-submit.bc-btn--add_to_cart {
+    background-color: var(--green);
+    color: white;
+}
+.bc-product-quick-view__content-inner .bc-product__meta {
+    margin-bottom: 0;
+}
+.bc-product-quick-view__content-inner .bc-product__description {
+    border-top: none;
+    margin: 0;
+    padding: 24px 0;
+}
+input.bc-product-form__quantity-input[type=number] {
+    color: var(--green);
+    border: solid 1px var(--green);
+}
+
+@media (min-width: 1200px) {
+    .bc-product-quick-view__content-inner .bc-product__description  {
+        width: 100%;
+    }
+}
+
+@media (min-width: 960px) {
+    .bc-product-quick-view__content-inner .bc-product__description {
+        width: 100%;
+    }
+}
